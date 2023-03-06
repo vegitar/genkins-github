@@ -22,7 +22,7 @@ pipeline {
             steps {
                 echo 'Clonning Repository'
 
-                git url: 'https://github.com/vegitar/genkins-test.git',
+                git url: 'https://github.com/vegitar/genkins-github.git',
                     branch: 'master',
                     credentialsId: 'Jenkins-Github' //defined in credentials area ?
                                             // GitHub Servers 의 Credentials?
